@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getSidebarByToc 1`] = `
+Array [
+  Object {
+    "children": Array [],
+    "collapsable": false,
+    "path": "/hbppt4.html",
+    "title": "开始",
+  },
+  Object {
+    "children": Array [],
+    "collapsable": false,
+    "path": "/ng41km.html",
+    "title": "创建应用和密匙",
+  },
+  Object {
+    "children": Array [],
+    "collapsable": false,
+    "path": "/reieo2.html",
+    "title": "获取OpenId（授权式）",
+  },
+  Object {
+    "children": Array [],
+    "collapsable": false,
+    "path": "/tp7n7e.html",
+    "title": "获取OpenId（非授权式）",
+  },
+  Object {
+    "children": Array [],
+    "collapsable": false,
+    "path": "/xnyf7r.html",
+    "title": "获取令牌接口OpenToken",
+  },
+  Object {
+    "children": Array [,
+    "collapsable": false,
+    "path": "/yuw819.html",
+    "title": "业务接口调用示例",
+  },
+  Object {
+    "children": Array [],
+    "collapsable": false,
+    "path": "/yvyo8n.html",
+    "title": "返回数据结构说明",
+  },
+  Object {
+    "children": Array [],
+    "collapsable": false,
+    "path": "/bd6dg4.html",
+    "title": "错误码",
+  },
+]
+`;
+
+

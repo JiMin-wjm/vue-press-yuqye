@@ -1,0 +1,54 @@
+{
+  "name": "openapidoc",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "王继民 <335768489@qq.com>",
+  "repository": "https://gitlab.rencaiyoujia.cn/publiclibrary/doc/openapidoc.git",
+  
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs --temp .temp"
+  },
+  "dependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.44",
+    "cheerio": "^1.0.0-rc.2",
+    "conf": "^2.2.0",
+    "debug": "^4.1.1",
+    "node-fetch": "^2.3.0",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.1",
+    "eslint-config-sherry": "0.0.1",
+    "husky": "1.2.0",
+    "jest": "23.6.0",
+    "lint-staged": "8.1.0",
+    "release-it": "v7.4.8",
+    "vuepress": "1.0.0-alpha.44",
+    "xo": "0.23.0",
+    "escape-html": "^1.0.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "xo": {
+    "extends": [
+      "sherry"
+    ],
+    "envs": [
+      "jest"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "xo --fix",
+      "git add"
+    ]
+  }
+}
